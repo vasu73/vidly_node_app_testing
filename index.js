@@ -13,8 +13,9 @@ require("./startup/validation")();
 //const port = process.env.PORT || config.get("port");
 const port = process.env.PORT || 3000;
 
-const server = app.listen(port, () =>
-  winston.info(`Listening on heroku vasu port ${port}...`)
-);
+const server = app.listen(port, () => {
+  winston.info(`Listening on heroku vasu port ${port}...`);
+  winston.info(`Listening on heroku vasu config ${config.get("db")}...`);
+});
 
 module.exports = server;
