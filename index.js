@@ -10,7 +10,10 @@ require("./startup/db")();
 require("./startup/config")();
 require("./startup/validation")();
 
-const port = process.env.PORT || config.get("port");
+
+//const port = process.env.PORT || config.get("port");
+const port = process.env.PORT || || 3000;
+
 const server = app.listen(port, () =>
   winston.info(`Listening on port ${port}...`)
 );
