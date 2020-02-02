@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^1.0.3",
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
     "config": "^1.29.4",
     "cors": "^2.8.4",
     "express": "^4.16.2",
@@ -24,6 +25,8 @@
     "lodash": "^4.17.10",
     "moment": "^2.20.1",
     "mongoose": "^5.0.2",
+    "node-gyp": "^6.1.0",
+    "react-toastify": "^5.5.0",
     "winston": "^2.4.0",
     "winston-mongodb": "^3.0.0"
   },
