@@ -1,0 +1,101 @@
+2020-02-02T22:52:59.935894+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-02-02T22:53:04.144765+00:00 app[web.1]: 
+2020-02-02T22:53:04.144794+00:00 app[web.1]: > vidly@1.0.0 start /app
+2020-02-02T22:53:04.144796+00:00 app[web.1]: > node index.js
+2020-02-02T22:53:04.144798+00:00 app[web.1]: 
+2020-02-02T22:53:04.565916+00:00 app[web.1]: WARNING: NODE_ENV value of 'production' did not match any deployment config file names.
+2020-02-02T22:53:04.570325+00:00 app[web.1]: WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+2020-02-02T22:53:05.475554+00:00 app[web.1]: info: Listening on port 3832...
+2020-02-02T22:53:05.808833+00:00 heroku[web.1]: State changed from starting to up
+2020-02-02T22:53:05.920376+00:00 app[web.1]: [31merror[39m: uncaughtException: connection 3 to cluster0-shard-00-02-kl6ni.mongodb.net:27017 closed
+2020-02-02T22:53:05.920394+00:00 app[web.1]: {
+2020-02-02T22:53:05.920403+00:00 app[web.1]: date: [32m'Sun Feb 02 2020 22:53:05 GMT+0000 (Coordinated Universal Time)'[39m,
+2020-02-02T22:53:05.920405+00:00 app[web.1]: process: {
+2020-02-02T22:53:05.920408+00:00 app[web.1]: pid: [33m23[39m,
+2020-02-02T22:53:05.920410+00:00 app[web.1]: uid: [33m19629[39m,
+2020-02-02T22:53:05.920412+00:00 app[web.1]: gid: [33m19629[39m,
+2020-02-02T22:53:05.920414+00:00 app[web.1]: cwd: [32m'/app'[39m,
+2020-02-02T22:53:05.920416+00:00 app[web.1]: execPath: [32m'/app/.heroku/node/bin/node'[39m,
+2020-02-02T22:53:05.920421+00:00 app[web.1]: version: [32m'v12.14.1'[39m,
+2020-02-02T22:53:05.920423+00:00 app[web.1]: argv: [ [32m'/app/.heroku/node/bin/node'[39m, [32m'/app/index.js'[39m ],
+2020-02-02T22:53:05.920424+00:00 app[web.1]: memoryUsage: {
+2020-02-02T22:53:05.920427+00:00 app[web.1]: rss: [33m51982336[39m,
+2020-02-02T22:53:05.920429+00:00 app[web.1]: heapTotal: [33m17670144[39m,
+2020-02-02T22:53:05.920431+00:00 app[web.1]: heapUsed: [33m13447256[39m,
+2020-02-02T22:53:05.920433+00:00 app[web.1]: external: [33m19142670[39m
+2020-02-02T22:53:05.920434+00:00 app[web.1]: }
+2020-02-02T22:53:05.920436+00:00 app[web.1]: },
+2020-02-02T22:53:05.920438+00:00 app[web.1]: os: {
+2020-02-02T22:53:05.920441+00:00 app[web.1]: loadavg: [ [33m38.87060546875[39m, [33m34.44287109375[39m, [33m33.89892578125[39m ],
+2020-02-02T22:53:05.920443+00:00 app[web.1]: uptime: [33m1355423[39m
+2020-02-02T22:53:05.920445+00:00 app[web.1]: },
+2020-02-02T22:53:05.920447+00:00 app[web.1]: trace: [
+2020-02-02T22:53:05.920449+00:00 app[web.1]: {
+2020-02-02T22:53:05.920451+00:00 app[web.1]: column: [33m9[39m,
+2020-02-02T22:53:05.920453+00:00 app[web.1]: file: [32m'/app/node_modules/mongodb-core/lib/connection/connection.js'[39m,
+2020-02-02T22:53:05.920456+00:00 app[web.1]: function: [1mnull[22m,
+2020-02-02T22:53:05.920458+00:00 app[web.1]: line: [33m275[39m,
+2020-02-02T22:53:05.920460+00:00 app[web.1]: method: [1mnull[22m,
+2020-02-02T22:53:05.920462+00:00 app[web.1]: native: [33mfalse[39m
+2020-02-02T22:53:05.920464+00:00 app[web.1]: },
+2020-02-02T22:53:05.920466+00:00 app[web.1]: {
+2020-02-02T22:53:05.920468+00:00 app[web.1]: column: [33m26[39m,
+2020-02-02T22:53:05.920470+00:00 app[web.1]: file: [32m'events.js'[39m,
+2020-02-02T22:53:05.920473+00:00 app[web.1]: function: [32m'Object.onceWrapper'[39m,
+2020-02-02T22:53:05.920474+00:00 app[web.1]: line: [33m313[39m,
+2020-02-02T22:53:05.920477+00:00 app[web.1]: method: [32m'onceWrapper'[39m,
+2020-02-02T22:53:05.920479+00:00 app[web.1]: native: [33mfalse[39m
+2020-02-02T22:53:05.920480+00:00 app[web.1]: },
+2020-02-02T22:53:05.920482+00:00 app[web.1]: {
+2020-02-02T22:53:05.920484+00:00 app[web.1]: column: [33m7[39m,
+2020-02-02T22:53:05.920486+00:00 app[web.1]: file: [32m'events.js'[39m,
+2020-02-02T22:53:05.920488+00:00 app[web.1]: function: [32m'TLSSocket.emit'[39m,
+2020-02-02T22:53:05.920490+00:00 app[web.1]: line: [33m228[39m,
+2020-02-02T22:53:05.920492+00:00 app[web.1]: method: [32m'emit'[39m,
+2020-02-02T22:53:05.920494+00:00 app[web.1]: native: [33mfalse[39m
+2020-02-02T22:53:05.920496+00:00 app[web.1]: },
+2020-02-02T22:53:05.920499+00:00 app[web.1]: {
+2020-02-02T22:53:05.920501+00:00 app[web.1]: column: [33m12[39m,
+2020-02-02T22:53:05.920503+00:00 app[web.1]: file: [32m'net.js'[39m,
+2020-02-02T22:53:05.920506+00:00 app[web.1]: function: [1mnull[22m,
+2020-02-02T22:53:05.920508+00:00 app[web.1]: line: [33m664[39m,
+2020-02-02T22:53:05.920510+00:00 app[web.1]: method: [1mnull[22m,
+2020-02-02T22:53:05.920512+00:00 app[web.1]: native: [33mfalse[39m
+2020-02-02T22:53:05.920514+00:00 app[web.1]: },
+2020-02-02T22:53:05.920516+00:00 app[web.1]: {
+2020-02-02T22:53:05.920518+00:00 app[web.1]: column: [33m7[39m,
+2020-02-02T22:53:05.920520+00:00 app[web.1]: file: [32m'_tls_wrap.js'[39m,
+2020-02-02T22:53:05.920522+00:00 app[web.1]: function: [32m'TCP.done'[39m,
+2020-02-02T22:53:05.920524+00:00 app[web.1]: line: [33m481[39m,
+2020-02-02T22:53:05.920526+00:00 app[web.1]: method: [32m'done'[39m,
+2020-02-02T22:53:05.920528+00:00 app[web.1]: native: [33mfalse[39m
+2020-02-02T22:53:05.920530+00:00 app[web.1]: }
+2020-02-02T22:53:05.920532+00:00 app[web.1]: ],
+2020-02-02T22:53:05.920534+00:00 app[web.1]: stack: [
+2020-02-02T22:53:05.920536+00:00 app[web.1]: [32m'MongoNetworkError: connection 3 to cluster0-shard-00-02-kl6ni.mongodb.net:27017 closed'[39m,
+2020-02-02T22:53:05.920538+00:00 app[web.1]: [32m'    at TLSSocket.<anonymous> (/app/node_modules/mongodb-core/lib/connection/connection.js:275:9)'[39m,
+2020-02-02T22:53:05.920540+00:00 app[web.1]: [32m'    at Object.onceWrapper (events.js:313:26)'[39m,
+2020-02-02T22:53:05.920542+00:00 app[web.1]: [32m'    at TLSSocket.emit (events.js:228:7)'[39m,
+2020-02-02T22:53:05.920544+00:00 app[web.1]: [32m'    at net.js:664:12'[39m,
+2020-02-02T22:53:05.920546+00:00 app[web.1]: [32m'    at TCP.done (_tls_wrap.js:481:7)'[39m
+2020-02-02T22:53:05.920548+00:00 app[web.1]: ]
+2020-02-02T22:53:05.920550+00:00 app[web.1]: }
+2020-02-02T22:53:05.989530+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-02-02T22:53:05.989976+00:00 app[web.1]: npm ERR! errno 1
+2020-02-02T22:53:05.991763+00:00 app[web.1]: npm ERR! vidly@1.0.0 start: `node index.js`
+2020-02-02T22:53:05.992042+00:00 app[web.1]: npm ERR! Exit status 1
+2020-02-02T22:53:05.992327+00:00 app[web.1]: npm ERR!
+2020-02-02T22:53:05.992613+00:00 app[web.1]: npm ERR! Failed at the vidly@1.0.0 start script.
+2020-02-02T22:53:05.992841+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-02-02T22:53:06.023130+00:00 app[web.1]: 
+2020-02-02T22:53:06.023586+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-02-02T22:53:06.023844+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-02-02T22_53_05_995Z-debug.log
+2020-02-02T22:53:06.136331+00:00 heroku[web.1]: State changed from up to crashed
+2020-02-02T22:53:06.114534+00:00 heroku[web.1]: Process exited with status 1
+2020-02-02T22:53:14.478216+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=desolate-escarpment-58114.herokuapp.com request_id=ca787b48-a6f3-4e6b-a2f3-4cf77737c044 fwd="24.184.35.224" dyno= connect= service= status=503 bytes= protocol=https
+2020-02-02T22:53:15.457505+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=desolate-escarpment-58114.herokuapp.com request_id=32533a5e-4fac-4a57-a3a3-6feb8aae4a03 fwd="24.184.35.224" dyno= connect= service= status=503 bytes= protocol=https
+2020-02-02T22:53:30.208903+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=desolate-escarpment-58114.herokuapp.com request_id=2d78ede7-63ba-47e8-ae65-beed47232b90 fwd="24.184.35.224" dyno= connect= service= status=503 bytes= protocol=https
+2020-02-02T22:53:31.359089+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=desolate-escarpment-58114.herokuapp.com request_id=6cf5e7b0-8783-47ec-af07-805992040b59 fwd="24.184.35.224" dyno= connect= service= status=503 bytes= protocol=https
+2020-02-02T22:55:26.193989+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=desolate-escarpment-58114.herokuapp.com request_id=34dbb935-ffdf-483e-91df-92916a53c1d7 fwd="24.184.35.224" dyno= connect= service= status=503 bytes= protocol=https
+2020-02-02T22:55:27.117925+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=desolate-escarpment-58114.herokuapp.com request_id=18e68fdf-5ad7-43ba-b505-6a853e646db8 fwd="24.184.35.224" dyno= connect= service= status=503 bytes= protocol=https
+Terminate batch job (Y/N)? 
