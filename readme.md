@@ -61,3 +61,4 @@ On Mac:
 On Windows:
 
     set vidly_jwtPrivateKey=yourSecureKey
+"# vidly_node_app_test" 
