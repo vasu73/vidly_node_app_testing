@@ -15,7 +15,7 @@ const port = process.env.PORT || 3000;
 
 const server = app.listen(port, () => {
   winston.info(`Debug -- Listening on heroku port ${port}...`);
-  winston.info(`Debug -- config DB ${config.get("db")}...`);
+  //winston.info(`Debug -- config DB ${config.get("db")}...`);
 });
 
 module.exports = server;
